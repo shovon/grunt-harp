@@ -1,0 +1,26 @@
+{
+  "name": "grunt-harp",
+  "version": "0.0.0",
+  "description": "Grunt tasks for working with the harp platform.",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shovon/grunt-harp.git"
+  },
+  "keywords": [
+    "grunt",
+    "harp"
+  ],
+  "author": "Salehen Shovon Rahman <salehen.rahman@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shovon/grunt-harp/issues"
+  },
+  "dependencies": {
+    "harp": "~0.10.0",
+    "lodash": "~2.3.0"
+  }
+}
