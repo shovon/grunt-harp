@@ -16,15 +16,18 @@ module.exports = function(grunt) {
   grunt.registerMultiTask('harp', 'A grunt task for either running a Harp server, or compile your site using harp.', function() {
     // Merge task-specific and/or target-specific options with these defaults.
     var done = this.async();
-    var options = this.options({
+    var defaults = {
       server: false,
       source: './',
       dest: 'build'
-    });
+    };
+    var options = this.options(defaults, this.data);
     var source = path.resolve(options.source);
     var dest = path.resolve(options.dest);
     if (options.server) {
-      harp.server(source);
+      harp.server(source, { port: 9000 }, function () {
+        console.log('Harp server running on port %d', 9000);
+      });
     } else {
       harp.compile(source, dest, function (err) {
         if (err) {
