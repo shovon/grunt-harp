@@ -1,7 +1,7 @@
 {
   "name": "grunt-harp",
   "description": "A grunt task for either running a Harp server, or compile your site using harp.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/shovon/grunt-harp",
   "author": {
     "name": "Salehen Shovon Rahman",
@@ -38,7 +38,7 @@
     "grunt": "~0.4.1"
   },
   "keywords": [
-    "gruntplugin"
+    "harp", "grunt", "gruntplugin", "plugin"
   ],
   "dependencies": {
     "harp": "~0.10.0"
