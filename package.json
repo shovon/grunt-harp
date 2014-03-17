@@ -46,6 +46,6 @@
     "harp", "grunt", "gruntplugin", "plugin"
   ],
   "dependencies": {
-    "harp": "~0.10.1"
+    "harp": "~0.11.2"
   }
 }
