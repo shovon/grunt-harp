@@ -23,7 +23,7 @@
   ],
   "main": "Gruntfile.js",
   "engines": {
-    "node": ">= 0.8.0"
+    "node": ">= 0.10.0"
   },
   "scripts": {
     "test": "grunt test"
@@ -41,6 +41,6 @@
     "harp", "grunt", "gruntplugin", "plugin"
   ],
   "dependencies": {
-    "harp": "~0.10.1"
+    "harp": "~0.12.1"
   }
 }
