@@ -47,6 +47,13 @@ Default value: `false`
 
 Used to determine whether or not to spawn a server. If set to true, a server will be spawned. However, a static site won't be generated.
 
+#### options.port
+
+Type: `Number`    
+Default value: `9000`
+
+The server port that Harp should use for the site.
+
 #### options.source
 
 Type: `String`    

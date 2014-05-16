@@ -18,6 +18,7 @@ module.exports = function(grunt) {
     var done = this.async();
     var defaults = {
       server: false,
+      port: 9000,
       source: './',
       dest: 'build'
     };
@@ -25,8 +26,8 @@ module.exports = function(grunt) {
     var source = path.resolve(options.source);
     var dest = path.resolve(options.dest);
     if (options.server) {
-      harp.server(source, { port: 9000 }, function () {
-        console.log('Harp server running on port %d', 9000);
+      harp.server(source, { port: options.port }, function () {
+        console.log('Harp server running on port %d', options.port);
       });
     } else {
       harp.compile(source, dest, function (err) {
