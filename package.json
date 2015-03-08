@@ -1,11 +1,11 @@
 {
   "name": "grunt-harp",
   "description": "A grunt task for either running a Harp server, or compile your site using harp.",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "homepage": "https://github.com/shovon/grunt-harp",
   "author": {
     "name": "Salehen Shovon Rahman",
-    "email": "salehen.rahman@gmail.com",
+    "email": "sal@linux.com",
     "url": "http://shovon.github.io"
   },
   "contributors": [{
