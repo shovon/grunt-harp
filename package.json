@@ -8,11 +8,13 @@
     "email": "sal@linux.com",
     "url": "http://shovon.github.io"
   },
-  "contributors": [{
-    "name": "Dave Furfero",
-    "email": "furf@furf.com",
-    "url": "http://furf@furf.com"
-  }],
+  "contributors": [
+    {
+      "name": "Dave Furfero",
+      "email": "furf@furf.com",
+      "url": "http://furf@furf.com"
+    }
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/shovon/grunt-harp.git"
@@ -40,10 +42,13 @@
     "grunt": "~0.4.1"
   },
   "peerDependencies": {
-    "grunt": "~0.4.1"
+    "grunt": ">=0.4.0"
   },
   "keywords": [
-    "harp", "grunt", "gruntplugin", "plugin"
+    "harp",
+    "grunt",
+    "gruntplugin",
+    "plugin"
   ],
   "dependencies": {
     "harp": "^0.18.0"
